@@ -1,0 +1,107 @@
+.find-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: lightgreen;
+  overflow: hidden;
+}
+.find-topbar {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background-color: #b5efff;
+  text-align: center;
+  font-size: 20px;
+  z-index: 999;
+}
+.find-content {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  overflow-y: auto;
+}
+
+.ui.bottom.attached.segment.active.tab {
+  top: 80px;
+  bottom: 0px;
+  position: absolute;
+  overflow-y: auto;
+}
+
+.ui .view {
+  background-color: #fff;
+}
+
+/* 消息的样式 */
+.ui.items > .item > .content > .header.info-title {
+  text-align: left;
+  height: auto;
+  filter: none;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+}
+
+.ui.items > .item .meta {
+  text-align: left;
+}
+
+/* 问答相关的样式 */
+.info-ask-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+.info-ask-list li {
+  position: relative;
+  margin: 5px 10px;
+  padding: 10px 0;
+}
+
+.info-ask-list li .title {
+  color: #000;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 16px;
+}
+.info-ask-list li .title .cate {
+  box-sizing: border-box;
+  background-color: #c6f3ff;
+  margin-right: 5px;
+  padding: 0px 3px;
+  display: inline-block;
+  font-size: 14px;
+}
+.info-ask-list li .user {
+  font-size: 12px;
+  color: gray;
+  padding-left: 5px;
+}
+.info-ask-list li .info {
+  font-size: 10px;
+  color: gray;
+  padding-left: 5px;
+}
+.info-ask-list li .tag {
+  padding-left: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.info-ask-list li .tag span {
+  font-size: 12px;
+  color: #000;
+  border: 1px solid gray;
+  margin-right: 5px;
+  padding: 2px 5px;
+}
+.info-ask-list li .tag span:last-child {
+  float: right;
+  border: 0px;
+}
+.info-ask-btn {
+  padding: 10px 15px;
+}

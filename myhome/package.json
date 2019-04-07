@@ -1,0 +1,40 @@
+{
+  "name": "myhome",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "install": "^0.12.1",
+    "moment": "^2.22.2",
+    "npm": "^6.4.1",
+    "react": "^16.5.2",
+    "react-avatar-editor": "^11.0.4",
+    "react-dom": "^16.5.2",
+    "react-image-gallery": "^0.8.12",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.4",
+    "react-touch-loader": "^1.1.4",
+    "semantic-ui-css": "^2.4.0",
+    "semantic-ui-react": "^0.82.5"
+  },
+  "scripts": {
+    "start": "cross-env PORT=8888 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0"
+  }
+}
